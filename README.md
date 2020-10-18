@@ -16,22 +16,30 @@
 ![image](https://user-images.githubusercontent.com/32064166/96369166-d4208180-112e-11eb-8a76-12dda6d039b5.png)
 
 
-## Telas Finais:
+# Telas Finais:
 
-Login:
+## Login:
+
 ![image](https://user-images.githubusercontent.com/32064166/96369185-e69abb00-112e-11eb-9406-2e57bbed9fdc.png)
 
 
-Tela Principal:
+## Tela Principal:
+
 ![image](https://user-images.githubusercontent.com/32064166/96369198-fd411200-112e-11eb-99b8-41e30e793d05.png)
 
-Análise de Consumo:
+
+## Análise de Consumo:
+
 ![image](https://user-images.githubusercontent.com/32064166/96369242-31b4ce00-112f-11eb-9eb3-558df6122138.png)
 
-Dicas:
+
+## Dicas:
+
 ![image](https://user-images.githubusercontent.com/32064166/96369265-42fdda80-112f-11eb-9634-e93fbc66354d.png)
 
-Sobre:
+
+## Sobre:
+
 ![image](https://user-images.githubusercontent.com/32064166/96369282-5d37b880-112f-11eb-9814-d987d7edad9d.png)
 
 
