@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Sobre o aplicativo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitCenter"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_normalColor="#126c84" />
+
+    <RelativeLayout
+        android:layout_width="359dp"
+        android:layout_height="1.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:text="Criadores"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#e0000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="Os estudantes do 3º ano do Curso Técnico em Informática integrado ao Ensino Médio, do IFC - Campus Ibirama:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#d31e1d1d"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:text="Jardel Pereira Zermiani"
+        android:textColor="#181717" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="200dp"
+        android:text="jardel123zemriani@gmail.com"
+        android:textColor="#de585757"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:text="Naiara Sachetti"
+        android:textColor="#181717" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="250dp"
+        android:text="naisachetti0@gmail.com"
+        android:textColor="#de585757"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:text="Rafaela Tillmann"
+        android:textColor="#181717" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="tillmannrafaela@gmail.com"
+        android:textColor="#de585757"
+        android:textSize="11sp" />
+
+    <RelativeLayout
+        android:layout_width="359dp"
+        android:layout_height="1.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/txtVersao"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        android:layout_marginLeft="5dp"
+        android:text="Versão 1.0"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="359dp"
+        android:layout_height="1.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="177dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/txtVersaoSdk"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:text="Versão SDK                                              -"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+//2903 Lines
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Ajuda"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="27dp" />
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbAjuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_normalColor="#126c84" />
+
+    <Button
+        android:id="@+id/btAjudaMoeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/editcad"
+        android:text="O que é o símbolo de gota na página
+de visualização do consumo mensal?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btAjudaMoeda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaGrafico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/editcad"
+        android:text="Como funciona o gráfico de consumo?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btAjudaGrafico"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaConsumoM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="181dp"
+        android:background="@drawable/editcad"
+        android:text="Como faço para visualizar o meu
+consumo em m³?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btAjudaConsumoM3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaGastoMonetario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="239dp"
+        android:background="@drawable/editcad"
+        android:text="De que maneira ativo a função de ver
+o gasto monetário?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaInfoPessoais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/editcad"
+        android:text="De que maneira edito minhas
+informações pessoais?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignTop="@+id/btAjudaAlterarSenha"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaAlterarSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/editcad"
+        android:text="Como alterar minha senha?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btAjudaExcluirConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/editcad"
+        android:text="Como excluir minha conta?"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="458dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+</RelativeLayout>

@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_normalColor="#126c84" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Conta"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="15dp"
+        android:text="Nome:"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edConfiNome"
+        android:layout_width="241dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="27dp"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColorHint="#C0C0C0" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="#000"></RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:text="Nickname:"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edConfiNickname"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="148dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColorHint="#C0C0C0" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_above="@+id/edConfiEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-191dp"
+        android:background="#000000"></RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="15dp"
+        android:text="Email:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edConfiEmail"
+        android:layout_width="247dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="199dp"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:hint="Cadastrado"
+        android:textColorHint="#C0C0C0" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp"
+        android:background="#000000"></RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="255dp"
+        android:text="Número de Moradores:"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edConfiMoradores"
+        android:layout_width="64dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-249dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="250dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColorHint="#C0C0C0" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="268dp"
+        android:background="#000000"></RelativeLayout>
+
+    <Button
+        android:id="@+id/btAlterarDados"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="#C0C0C0"
+        android:text="Alterar"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btConfiAlterarSenha"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/editcad"
+        android:text="Alterar Senha                                            "
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="116dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"></RelativeLayout>
+
+    <Button
+        android:id="@+id/btConfiExcluirConta"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="459dp"
+        android:background="@drawable/editcad"
+        android:text="Excluir Conta                                            "
+        android:textAllCaps="false"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp"
+        android:background="#000000"></RelativeLayout>
+
+
+
+
+</RelativeLayout>

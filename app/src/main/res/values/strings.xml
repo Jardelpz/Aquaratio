@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aquaratio</string>
+    <string name="title_activity_cliente">clienteActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_faixa_min">0</string>
+    <string name="key_consumo">switch_consumo</string>
+    <string name="conf_conta">conf_conta</string>
+    <string name="switch_notificacao">switch_notificacao</string>
+    <string name="switch_gasto_financeiro">switch_gasto_financeiro</string>
+    <string name="conf_sair">conf_sair</string>
+</resources>

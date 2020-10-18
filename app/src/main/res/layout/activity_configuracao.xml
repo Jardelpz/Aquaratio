@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Configurações"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbConfiguracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitCenter"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_normalColor="#126c84" />
+
+    <Button
+        android:id="@+id/btPreference"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/editcad"
+        android:text="Preferências"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="#000000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btConfConta"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/editcad"
+        android:text="Configurações da conta"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="18sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:background="#000"
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/editcad"
+        android:text="Sair"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="18sp"></Button>
+
+</RelativeLayout>

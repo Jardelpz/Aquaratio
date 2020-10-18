@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <TextView
+        android:id="@+id/txtMoedaMensal"
+        android:layout_width="149dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="@drawable/editmoeda"
+        android:textColor="@android:color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/txtDinheiroMensal"
+        android:layout_width="149dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtMoedaMensal"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/editpreco"
+        android:textColor="#dc474e47"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="76dp"
+        app:srcCompat="@drawable/moeda" />
+
+    <com.jardelzermiani.cadastrocliente.CircleWaveMensal
+        android:id="@+id/wave_viewMensal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Consumo mensal"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/txtMetaMensal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="top"
+        android:textColor="@android:color/black"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtConsumidoMensal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="top"
+        android:textColor="@android:color/black"
+        android:textSize="22dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/pontodireita" />
+
+
+</RelativeLayout>

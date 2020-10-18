@@ -1,0 +1,251 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="860dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="top">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/barrasuperior" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Dicas"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#ffffff"
+                android:textSize="27dp" />
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vassoura" />
+
+            <TextView
+                android:layout_width="202dp"
+                android:layout_height="33dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="Lave a calçada com água reaproveitada"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="155dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="210dp"
+                android:gravity="center"
+                android:text="Verifique se o encanamento da sua casa está bem vedado"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="99dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="180dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cano" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="270dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="310dp"
+                android:gravity="center"
+                android:text="Limpe objetos com borifador, a limpeza rende mais e gasta-se menos água"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="88dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="292dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/borrifador" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="370dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="420dp"
+                android:gravity="center"
+                android:text="Procure lavar a roupa apenas quando o volume de roupa atender a capacidade da máquina"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginTop="395dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/maquinadelavar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="485dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="39dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="540dp"
+                android:gravity="center"
+                android:text="Fecha as torneiras enquanto você não está a utiza-lá"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="99dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="510dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/torneira" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="603dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="207dp"
+                android:layout_height="74dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="640dp"
+                android:gravity="center"
+                android:text="Antes de lavar a louça, retire o excesso de comida com a esponja, sem usar água"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="99dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="630dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/esponja" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="723dp"
+                android:text="_______________________________________________________________"
+                android:textColor="#403d3d" />
+
+            <TextView
+                android:layout_width="202dp"
+                android:layout_height="33dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="760dp"
+                android:gravity="center"
+                android:text="Reduza o tempo de banho"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="750dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/banheira" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbDicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_normalColor="#126c84" />
+
+    </RelativeLayout>

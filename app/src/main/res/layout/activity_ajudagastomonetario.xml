@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/barrasuperior" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Gasto Monetário"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:lineSpacingExtra="5dp"
+        android:text="Para ativação do gasto monetário mensal basta acessar as configurações e ativar a opção 'Exibir  gasto Financeiro', como ilustrado na figura abaixo."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="225dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gastofinanceiro"/>
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="Ficando verde, o sistema mostrará o  gasto Financeiro."
+        />
+
+</RelativeLayout>

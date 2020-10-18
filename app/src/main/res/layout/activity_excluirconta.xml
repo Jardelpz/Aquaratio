@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="20dp"
+        android:text="Email:"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edEmailExcluir"
+        android:layout_width="247dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="218dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email cadastrado"
+        android:textColorHint="#C0C0C0"
+        android:textColor="#000"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btExcluir"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:background="#c72c2c"
+        android:onClick="onClickExcluir"
+        android:text="Excluir Conta"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

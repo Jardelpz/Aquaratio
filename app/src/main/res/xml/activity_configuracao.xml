@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference android:layout="@layout/layout_preference" />
+
+    <PreferenceCategory android:title="Configurações do Consumo">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_consumo"
+            android:summaryOff="Litros (L)"
+            android:summaryOn="Metros Cúbicos (m³)"
+            android:title="Consumo" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/switch_gasto_financeiro"
+            android:title="Gasto Financeiro" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notificações">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/switch_notificacao"
+            android:title="Notificação" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="Conta">-->
+
+        <!--<Preference-->
+            <!--android:key="@string/conf_conta"-->
+            <!--android:title="Configurações da Conta" />-->
+
+        <!--<Preference-->
+            <!--android:key="@string/conf_sair"-->
+            <!--android:title="Sair" />-->
+
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>

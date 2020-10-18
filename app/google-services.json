@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "916159898982",
+    "firebase_url": "https://aquaratio-a63c2.firebaseio.com",
+    "project_id": "aquaratio-a63c2",
+    "storage_bucket": "aquaratio-a63c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916159898982:android:91b1da9f9b1d1e36",
+        "android_client_info": {
+          "package_name": "com.jardelzermiani.cadastrocliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916159898982-etb5tjij9cv84qe22d2jfrjmk1p3se3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstR3rLgU8-uqAnowdNUEo6aZ7zh-XLxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

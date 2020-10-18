@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Cadastro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50dp"
+        android:textColor="#ffffff"/>
+
+    <RelativeLayout
+        android:layout_width="301dp"
+        android:layout_height="572dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/edNome_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/edittext"
+            android:hint="Nome Completo"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/edNick_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/edittext"
+            android:hint="Nickname"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/edEmail_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="232dp"
+            android:background="@drawable/edittext"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/edMorador_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="255dp"
+            android:background="@drawable/edittext"
+            android:hint="Número de moradores da casa"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/edSenha_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="210dp"
+            android:background="@drawable/edittext"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/edConfirmacaosenha_cad"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="162dp"
+            android:background="@drawable/edittext"
+            android:hint="Confirmar senha"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#C0C0C0"
+            android:textColorHint="#C0C0C0"
+            android:paddingLeft="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="93dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:background="#90867979"
+                android:onClick="onClickCadastrar"
+                android:text="Cadastrar-se"
+                android:textColor="#FFFFFF	" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
