@@ -1,0 +1,41 @@
+# Aquaratio
+
+Projeto de TCC Elaborado em 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Equipe: Jardel, Naiara e Rafaela.
