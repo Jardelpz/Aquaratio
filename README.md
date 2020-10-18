@@ -1,8 +1,8 @@
 # Aquaratio
 
-##Projeto de TCC Elaborado em 2018
+## Projeto de TCC Elaborado em 2018
 
-##Arquitetura:
+## Arquitetura:
 
 ![image](https://user-images.githubusercontent.com/32064166/96369139-9b80a800-112e-11eb-8dd3-62494d0947e2.png)
 
@@ -11,12 +11,12 @@
 ![image](https://user-images.githubusercontent.com/32064166/96369149-b94e0d00-112e-11eb-8873-d2edc9faa095.png)
 
 
-##Hardware:
+## Hardware:
 
 ![image](https://user-images.githubusercontent.com/32064166/96369166-d4208180-112e-11eb-8a76-12dda6d039b5.png)
 
 
-##Telas Finais:
+## Telas Finais:
 
 Login:
 ![image](https://user-images.githubusercontent.com/32064166/96369185-e69abb00-112e-11eb-9406-2e57bbed9fdc.png)
